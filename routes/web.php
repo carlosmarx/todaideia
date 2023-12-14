@@ -26,8 +26,15 @@ Route::get('/welcome', function () {
     ]);
 })->name('welcome');
 
+Route::get('/encadernacao', function () {
+    return Inertia::render('Encadernacao', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+    ]);
+})->name('encadernacao');
+
 Route::get('/', function () {
-    return Inertia::render('Home', [
+    return Inertia::render('NewHome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
