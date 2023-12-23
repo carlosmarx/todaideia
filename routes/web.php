@@ -33,6 +33,14 @@ Route::get('/encadernacao', function () {
     ]);
 })->name('encadernacao');
 
+
+Route::get('/kitcaderneta', function () {
+    return Inertia::render('Caderneta', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+    ]);
+})->name('encadernacao');
+
 Route::get('/', function () {
     return Inertia::render('NewHome', [
         'canLogin' => Route::has('login'),

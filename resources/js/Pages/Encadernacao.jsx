@@ -20,7 +20,7 @@ function Encadernacao() {
                     <img src="/images/encadernacao/banner_topo.png" className="" alt="" />
                 </div>
             </div>
-            <BtnBuyNow />
+            <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN5DL" />
             
             
   
@@ -52,14 +52,14 @@ function Encadernacao() {
                 <ListItem item="Acesso vitalício" />
                 <ListItem item="Compre e baixe agora mesmo" />
             </ul>
-            <img src="https://assets.kiwify.com.br/extra/footer-kiwify-gray.png" className="w-32 my-2" />
+            <img src="https://app.perfectpay.com.br/img/perfectpay/logo_h30.png" className="w-48 my-2" />
         </div>
-        <BtnBuyNow />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN5DL" />
         
         <DriveSection />
 
         <Gallery />       
-        <BtnBuyNow />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN5DL" />
         <div className="lg:w-[950px] mx-auto lg:flex gap-3 items-start justify-center">
             
             <ul>
@@ -78,7 +78,7 @@ function Encadernacao() {
                 <ListItem item="Alavanques seu negócio" />
                 <ListItem item="Atualizações gratuitas" />
             </ul>
-        <BtnBuyNow />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN5DL" />
 
         <Testemonials />
         </div>
@@ -106,7 +106,7 @@ function Encadernacao() {
                 
             </div>
         </div>
-        <BtnBuyNow />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN5DL" />
 
         
         <div className="bg-zinc-100">
