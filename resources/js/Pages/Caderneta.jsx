@@ -21,7 +21,7 @@ function Encadernacao() {
                     <img src="/images/caderneta/Banner.png" className="" alt="" />
                 </div>
             </div>
-            <BtnBuyNow link="https://go.perfectpay.com.br/PPPB84A3" />
+            <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
             
             
   
@@ -54,12 +54,12 @@ function Encadernacao() {
             </ul>
             <img src="https://app.perfectpay.com.br/img/perfectpay/logo_h30.png" className="w-48 my-2" />
         </div>
-        <BtnBuyNow link="https://go.perfectpay.com.br/PPPB84A3" />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
         
         <DriveSection />
 
         <Gallery1 />       
-        <BtnBuyNow link="https://go.perfectpay.com.br/PPPB84A3" />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
         <div className="lg:w-[950px] mx-auto lg:flex gap-3 items-start justify-center">
             
             <ul>
@@ -78,12 +78,12 @@ function Encadernacao() {
                 <ListItem item="Alavanques seu negócio" />
                 <ListItem item="Atualizações gratuitas" />
             </ul>
-        <BtnBuyNow link="https://go.perfectpay.com.br/PPPB84A3" />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
 
         <Testemonials />
         </div>
         <Gallery2 />  
-        <BtnBuyNow link="https://go.perfectpay.com.br/PPPB84A3" />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
 
         <div className="container mx-auto mt-3">
             <div className="flex items-center justify-center text-white text-2xl">
@@ -108,7 +108,7 @@ function Encadernacao() {
                 
             </div>
         </div>
-        <BtnBuyNow link="https://go.perfectpay.com.br/PPPB84A3" />
+        <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
 
         
         <div className="bg-zinc-100">
