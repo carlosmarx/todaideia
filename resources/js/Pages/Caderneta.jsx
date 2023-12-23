@@ -7,7 +7,7 @@ import ListItem from "./Encadernacao/ListItem";
 import Testemonials from "./Caderneta/Testemonials";
 import Gallery2 from "./Caderneta/Gallery2";
 
-function Encadernacao() {
+function Caderneta() {
     return (
       <div className="flex flex-col min-h-screen bg-white">
         <div className="bg-red-500 mb-1">
@@ -23,10 +23,6 @@ function Encadernacao() {
             </div>
             <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
             
-            
-  
-        {/*  Page content */}
-        {/* <Pricing /> */} 
         <div className="lg:w-[950px] mx-auto lg:flex gap-3 items-start justify-center">
             <ul>
                 <ListItem item="ALBUM DO BEBÊ" />
@@ -121,5 +117,5 @@ function Encadernacao() {
     );
   }
   
-  export default Encadernacao;
+  export default Caderneta;
   
