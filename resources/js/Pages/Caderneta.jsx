@@ -71,7 +71,7 @@ function Caderneta() {
             <div className="bg-yellow-300 text-4xl px-6 py-4 rounded-lg text-red-500"><b>ÚLTIMOS DIAS DE PROMOÇÃO!</b></div>
             <ul>
                 <ListItem item="Milhares de arquivos" />
-                <ListItem item="Alavanques seu negócio" />
+                <ListItem item="Alavanque seu negócio" />
                 <ListItem item="Atualizações gratuitas" />
             </ul>
         <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
@@ -88,18 +88,13 @@ function Caderneta() {
             <div className="lg:w-[950px] mx-auto lg:flex gap-3 items-start justify-center">
             
                 <ul>
-                    <ListItem item="Agendas" />
-                    <ListItem item="Planners, desk planner e planner duo" />
-                    <ListItem item="Calendários" />
+                    <ListItem item="Com Bolsinho" />
+                    <ListItem item="Páginas extras" />
                     <ListItem item="Miolos, capas e contracapas" />
-                    <ListItem item=" Bloquinhos, adesivos" />
-                </ul>
-                <ul>
-                    <ListItem item="Mimos" />
-                    <ListItem item="5 bônus especiais" />
-                    <ListItem item="Mais de 30 GB em arquivos" />
+                    <ListItem item=" Bloquinhos" />
+                    <ListItem item="Mais de 200 GB em arquivos" />
                     <ListItem item="Arquivos no formato PNG e PDF" />
-                    <ListItem item=" Mais de 9.000 arquivos" />
+                    <ListItem item=" Mais de 150.000 arquivos" />
                 </ul>
                 
             </div>

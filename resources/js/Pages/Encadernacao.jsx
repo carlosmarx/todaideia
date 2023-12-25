@@ -75,7 +75,7 @@ function Encadernacao() {
             <div className="bg-yellow-300 text-4xl px-6 py-4 rounded-lg text-red-500"><b>ÚLTIMOS DIAS DE PROMOÇÃO!</b></div>
             <ul>
                 <ListItem item="Milhares de arquivos" />
-                <ListItem item="Alavanques seu negócio" />
+                <ListItem item="Alavanque seu negócio" />
                 <ListItem item="Atualizações gratuitas" />
             </ul>
         <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN5DL" />
