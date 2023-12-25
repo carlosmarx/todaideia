@@ -79,7 +79,7 @@ function Caderneta() {
                     </ul>
                 <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
 
-                <Testemonials />
+                {/* <Testemonials /> */}
                 </div>
                 <Gallery2 />  
                 <BtnBuyNow link="https://go.perfectpay.com.br/PPU38CNN9D2" />
