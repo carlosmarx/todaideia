@@ -45,7 +45,7 @@ function Caderneta() {
                     <h1 className="text-4xl">São mais de <span className="text-red-600"><strong>200GB</strong></span> de arquivos!</h1>
                     <h1 className="text-4xl">Tudo isso e muito mais por um <span className="text-[#008000]"><strong>preço especial!</strong></span></h1>
                     <p className="text-4xl">de <span className="text-red-700"><s><b>44,90</b></s></span></p>
-                    <p className="text-6xl"><b>por <span className="text-green-700">19,90</span></b></p>
+                    <p className="text-6xl"><b>por <span className="text-green-700">14,90</span></b></p>
                     <div className="bg-yellow-300 text-4xl px-6 py-4 rounded-lg text-red-500"><b>ÚLTIMOS DIAS DE PROMOÇÃO!</b></div>
                     <ul>
                         <ListItem item="Acesso vitalício" />

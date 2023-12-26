@@ -1,0 +1,1 @@
+import{a as l,F as a}from"./app-26ea7bef.js";function c(e){return l(a,{children:l("div",{className:"flex w-1/2 lg:w-1/5 flex-wrap",children:l("div",{className:"w-full p-1 md:p-2",children:l("img",{alt:"gallery",className:"block h-full w-full rounded-lg object-cover object-center",src:e.img})})})})}export{c as default};
