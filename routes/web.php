@@ -17,6 +17,10 @@ use App\Http\Controllers\PostsController;
 */
 Route::resource('posts', PostsController::class)->names('posts');
 
+Route::get('/', function () {
+    return view('home');
+})->name('home');
+
 Route::get('/welcome', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -41,14 +45,14 @@ Route::get('/kitcaderneta', function () {
     ]);
 })->name('encadernacao');
 
-Route::get('/', function () {
-    return Inertia::render('NewHome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-})->name('home');
+// Route::get('/', function () {
+//     return Inertia::render('NewHome', [
+//         'canLogin' => Route::has('login'),
+//         'canRegister' => Route::has('register'),
+//         'laravelVersion' => Application::VERSION,
+//         'phpVersion' => PHP_VERSION,
+//     ]);
+// })->name('home');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
