@@ -8,7 +8,7 @@ import Newsletter from './Home/Newsletter';
 import Banner from './Home/Banner';
 import Footer from './Home/Footer';
 
-function Home() {
+function Home0() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -37,4 +37,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home0;

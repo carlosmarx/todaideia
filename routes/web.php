@@ -17,8 +17,25 @@ use App\Http\Controllers\PostsController;
 */
 Route::resource('posts', PostsController::class)->names('posts');
 
+// Route::get('/', function () {
+//     return view('home');
+// })->name('home');
+Route::name('site.')->group(function () {
+    Route::get('/grafica', function () {
+        // Route assigned name "admin.users"...
+    })->name('grafica');
+    Route::get('/ti', function () {
+        // Route assigned name "admin.users"...
+    })->name('ti');
+});
+
 Route::get('/', function () {
-    return view('home');
+    return Inertia::render('Site/Home', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
 })->name('home');
 
 Route::get('/welcome', function () {
@@ -44,15 +61,6 @@ Route::get('/kitcaderneta', function () {
         'canRegister' => Route::has('register'),
     ]);
 })->name('encadernacao');
-
-// Route::get('/', function () {
-//     return Inertia::render('NewHome', [
-//         'canLogin' => Route::has('login'),
-//         'canRegister' => Route::has('register'),
-//         'laravelVersion' => Application::VERSION,
-//         'phpVersion' => PHP_VERSION,
-//     ]);
-// })->name('home');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

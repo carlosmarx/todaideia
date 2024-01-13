@@ -13,8 +13,15 @@
         @viteReactRefresh
         @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
         @inertiaHead
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+    
+          html {
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          }
+        </style>
     </head>
-    <body class="font-inter antialiased bg-gray-900 tracking-tight">
+    <body class="leading-normal tracking-normal text-indigo-400">
         @inertia
     </body>
 </html>

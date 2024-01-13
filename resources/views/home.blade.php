@@ -9,7 +9,11 @@
     <meta name="keywords" content="" />
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- Scripts -->
+    @routes
+    @viteReactRefresh
+    @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
+    @inertiaHead
     <!--Replace with your tailwind.css once created-->
     {{-- <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" /> --}}
 
@@ -59,13 +63,7 @@
 
       <!--Main-->
       <div class="container pt-8 md:pt-16 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div class="flex flex-col w-full justify-center item lg:items-center overflow-y-hidden lg:mb-12">
-          <h1 class="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
-            <span class="text-[#009eef]">
-              Toda</span><span class="text-[#e61484]">ideia</span>
-            - Agência Criativa
-          </h1>
-        </div>
+        
         <!--Left Col-->
         <div class="flex flex-col w-full xl:w-1/2 justify-center lg:items-center overflow-y-hidden">
           <h1 class="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
@@ -140,21 +138,5 @@
         </div>
       </div>
     </div>
-    <script type="module">
-      import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.31/dist/web.js'
-    
-      Typebot.initBubble({
-        typebot: "bot-8plg3o4",
-        apiHost: "https://bot.rltecno.com.br",
-        previewMessage: {
-          message: "Seja bem vindo! Posso ajudar?",
-          autoShowDelay: 10000,
-        },
-        theme: {
-          button: { backgroundColor: "#9B74B7" },
-          chatWindow: { backgroundColor: "#fff" },
-        },
-      });
-    </script>
   </body>
 </html>
