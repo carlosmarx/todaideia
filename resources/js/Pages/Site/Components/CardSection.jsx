@@ -14,7 +14,7 @@ export default function CardSection(props) {
                 </p>
 
                 <a  href={route(props.route)}
-                    className="bg-gradient-to-r from-[#009eef] to-[#e61484] hover:from-[#5394b4] hover:to-[#d61d80] text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out text-2xl text-center cursor-pointer" title="Saiba mais sobre nossa Gráfica Rápida">
+                    className="bg-gradient-to-r from-[#009eef] to-[#e61484] hover:from-[#5394b4] hover:to-[#d61d80] text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out text-2xl text-center cursor-pointer" title={`Saiba mais sobre ${props.title}`}>
                     Saiba mais
                 </a>
             
