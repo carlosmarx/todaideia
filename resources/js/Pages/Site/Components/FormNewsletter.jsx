@@ -13,7 +13,7 @@ export default function() {
       }
     return (
         <>
-            <div className="w-full mx-auto md:pt-16 mt-8">
+            <div className="w-full mx-auto md:pt-4 mt-4">
                 <div className="md:w-1/2 mx-auto">
                     <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
                         <div className="mb-4">

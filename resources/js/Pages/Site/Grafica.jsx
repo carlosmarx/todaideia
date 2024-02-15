@@ -5,7 +5,7 @@ import Hero from './Components/Hero';
 import FormNewsletter from './Components/FormNewsletter';
 import Footer from './Components/Footer';
 
-export default function Home(props) {
+export default function Grafica(props) {
     return (
         <>
             <Head title="Home" />
@@ -16,7 +16,7 @@ export default function Home(props) {
 
                         <Hero />
 
-                        <div className="container pt-4 md:pt-4 mx-auto flex flex-wrap flex-col md:flex-row items-center [&>*:nth-child(1)]:md:mb-0 [&>*:nth-child(1)]:mb-8 ">
+                        <div className="container pt-8 md:pt-16 mx-auto flex flex-wrap flex-col md:flex-row items-center [&>*:nth-child(1)]:md:mb-0 [&>*:nth-child(1)]:mb-8 ">
                             <CardSection 
                                 title="Tecnologia" 
                                 content="Soluções em tecnologia: Sistemas web, sites, aplicativos e automações em geral!" 
@@ -27,7 +27,6 @@ export default function Home(props) {
                                 content="Soluções em design e impressão: Produtos personalizados, criação de artes, logos, artes digitais e social media." 
                                 route="site.grafica" 
                             />
-
                         </div>
 
                         <FormNewsletter />

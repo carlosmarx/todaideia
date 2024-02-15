@@ -22,15 +22,15 @@ Route::resource('posts', PostsController::class)->names('posts');
 // })->name('home');
 Route::name('site.')->group(function () {
     Route::get('/grafica', function () {
-        // Route assigned name "admin.users"...
+        return Inertia::render('Site/Grafica');
     })->name('grafica');
     Route::get('/ti', function () {
-        // Route assigned name "admin.users"...
+        return Inertia::render('Site/Ti');
     })->name('ti');
 });
 
 Route::get('/', function () {
-    return Inertia::render('Site/Home', [
+    return Inertia::render('Site/NewHome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,

@@ -13,6 +13,14 @@ module.exports = {
     theme: {
         extend: {
           colors: {
+            todaideia: {
+              'blue': "#009eef",
+              'pink': "#e61484",
+              'yellow': "#ffe700",
+              'orange': "#ff6600",
+              'gray': "#ebf1f5",
+              'white': "#fff"
+            },
             primary: { 
                50: "#eff6ff", 
               100: "#dbeafe", 
@@ -89,5 +97,7 @@ module.exports = {
         },
       },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [
+      require('@tailwindcss/forms'),
+    ],
 };

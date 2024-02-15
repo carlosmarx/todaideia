@@ -1,9 +1,4 @@
-import './bootstrap';
 import '../css/app.css';
-import '../css/additional/theme.css';
-import '../css/additional/range-slider.css';
-import '../css/additional/toggle-switch.css';
-import '../css/additional/utility-patterns.css';
 
 import { createRoot } from 'react-dom/client';
 import { createInertiaApp } from '@inertiajs/react';
