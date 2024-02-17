@@ -21,7 +21,7 @@
           }
         </style>
     </head>
-    <body class="leading-normal tracking-normal text-indigo-400">
+    <body class="leading-normal tracking-normal text-indigo-400 p-0">
         @inertia
     </body>
 </html>

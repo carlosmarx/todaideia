@@ -1,8 +1,6 @@
 export default function NavSite() {
     return (
         <>
-            
-        
                 <div className="w-full container mx-auto">
                     <div className="w-full flex items-center justify-between pt-6">
                         <a className="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="{{route('home')}}">
