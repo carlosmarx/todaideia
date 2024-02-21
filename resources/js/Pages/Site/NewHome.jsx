@@ -6,16 +6,16 @@ import { FaPhp, FaLaravel, FaWordpress,FaReact, FaPython, FaVuejs, FaJs, FaSquar
 export default function NewHome(props) {
     return (
         <>
-            <Head title="Nova Home" />
+            <Head title="Home" />
             
             
             {/* Contact section top */}
             <div className='w-full bg-white'>
                 <div className='mx-auto h-10 flex justify-between max-w-6xl px-4 md:px-0 lg:px-0 '>
                     <div className='flex items-center'>
-                        <a href='https://wa.me/5586994144081' className='flex items-center gap-2 group text-todaideia-pink  hover:text-todaideia-blue transition-colors'>
+                        <a href='https://wa.me/5511976221974' className='flex items-center gap-2 group text-todaideia-pink  hover:text-todaideia-blue transition-colors'>
                             <FaWhatsapp className='text-green-600 '/>
-                            <span className=''>86 9 9414-4081</span>
+                            <span className=''>11 9 7622-1974</span>
                         </a>
                     </div>
                     <div className='text-todaideia-pink flex gap-4 items-center'>
@@ -35,11 +35,11 @@ export default function NewHome(props) {
                 {/* Nav */}
                 <div className='mx-auto max-w-6xl'>
                     <div className="w-full flex items-center justify-center sm:justify-between py-4 md:py-2">
-                        <a className="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="{{route('home')}}">
+                        <a className="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href={route('home')}>
                             <img src="./images/site/logo-white.png" alt="Logo Todaideia" className="w-28 md:w-32 " />
                         </a>
 
-                        <div className="hidden w-1/2 justify-end content-center gap-2 md:flex">
+                        {/* <div className="hidden w-1/2 justify-end content-center gap-2 md:flex">
                         
                             <a
                             className=" bg-white rounded text-todaideia-blue no-underline hover:text-todaideia-pink hover:text-underline text-center h-10 py-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out hover:bg-white hover:rounded transition-all"
@@ -69,7 +69,7 @@ export default function NewHome(props) {
                                 CONTATO
                             </a>
                            
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* End Nav */}
@@ -77,7 +77,7 @@ export default function NewHome(props) {
                 <div className='mx-auto max-w-6xl py-8 md:py-32 flex flex-col justify-center items-center'>
                     <h1 className='text-2xl md:text-4xl text-white max-w-xl text-center'><strong>Transformamos ideias em experiências digitais</strong></h1>
                     <p className='text-white max-w-2xl md:py-8 p-4 text-center'>Bem-vindo à nossa agência de desenvolvimento digital, onde a criatividade encontra a tecnologia para criar experiências digitais excepcionais. Aqui na Todaideia, somos impulsionados pela paixão de transformar ideias em realidade, levando conceitos inovadores e transformando-os em experiências digitais imersivas e envolventes.</p>
-                    <a href="https://wa.me/5586994144081" className='bg-todaideia-orange py-4 px-16 rounded-3xl text-white hover:bg-[#d05300] transform hover:scale-125 duration-300 ease-in-out transition-all'>
+                    <a href='https://wa.me/5511976221974' className='bg-todaideia-orange py-4 px-16 rounded-3xl text-white hover:bg-[#d05300] transform hover:scale-125 duration-300 ease-in-out transition-all'>
                         <strong>
                             Fale conosco
                         </strong>
@@ -258,7 +258,7 @@ export default function NewHome(props) {
                     </p>
 
                     <div className='text-center py-8'>
-                        <a href="https://wa.me/5586994144081" className='bg-todaideia-orange py-4 px-16 rounded-3xl text-white hover:bg-[#d05300] transform hover:scale-125 duration-300 ease-in-out transition-all'>
+                        <a href="https://wa.me/5511976221974" className='bg-todaideia-orange py-4 px-16 rounded-3xl text-white hover:bg-[#d05300] transform hover:scale-125 duration-300 ease-in-out transition-all'>
                             <strong>
                                 Fale conosco
                             </strong>
